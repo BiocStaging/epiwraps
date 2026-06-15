@@ -147,7 +147,7 @@ rtracklayer::export.bw(coverage(cov2), bw2)
 pl <- ggSignalTracks(list(group=c(rep1=bw1, rep2=bw2)), region="chr1:1-1030",
                      aggregation="heatmap+mean")
 #> Loading BigWig data...
-#>   Importing: /tmp/Rtmp6pOOBU/file1ce2514125f8.bw
-#>   Importing: /tmp/Rtmp6pOOBU/file1ce233d30f8d.bw
+#>   Importing: /tmp/RtmpuJOuW7/file1ca32605144f.bw
+#>   Importing: /tmp/RtmpuJOuW7/file1ca37e7aad70.bw
 patchwork::wrap_plots(pl, ncol=1, heights=c(2,1))
 ```
