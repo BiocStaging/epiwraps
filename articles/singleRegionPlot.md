@@ -199,9 +199,9 @@ pl <- ggSignalTracks(list(group=c(A=bw1, B=bw2)), region="chr1:1-1030",
 
     ## Loading BigWig data...
 
-    ##   Importing: /tmp/RtmpFXmNfu/file209278f0a39a.bw
+    ##   Importing: /tmp/Rtmp9su9E3/file209c6872a0bf.bw
 
-    ##   Importing: /tmp/RtmpFXmNfu/file209251b83473.bw
+    ##   Importing: /tmp/Rtmp9su9E3/file209c76d6c3aa.bw
 
 The output, `pl`, is a list of ggplot2 objects, which can be plotted
 together using
@@ -258,7 +258,7 @@ sessionInfo()
     ## 
     ## other attached packages:
     ##  [1] ggplot2_4.0.3               patchwork_1.3.2            
-    ##  [3] epiwraps_0.99.121           EnrichedHeatmap_1.42.0     
+    ##  [3] epiwraps_0.99.122           EnrichedHeatmap_1.42.0     
     ##  [5] ComplexHeatmap_2.28.0       SummarizedExperiment_1.42.0
     ##  [7] Biobase_2.72.0              GenomicRanges_1.64.0       
     ##  [9] Seqinfo_1.2.0               IRanges_2.46.0             
