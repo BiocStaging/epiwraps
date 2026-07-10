@@ -21,6 +21,12 @@ Install with:
 BiocManager::install("ETHZ-INS/epiwraps")
 ```
 
+If working with Bioconductor 3.23 or earlier, use:
+
+``` r
+BiocManager::install("ETHZ-INS/epiwraps" ref="bioc3.23")
+```
+
 ## Overview
 
 While the package’s functions accept many input formats, much of the
@@ -62,6 +68,4 @@ quality control, clustering, and visualizing region overlaps.
 `epiwraps` builds around a number of high-quality bioconductor packages,
 in particular (beyond core Bioc packages) the
 [EnrichedHeatmap](https://jokergoo.github.io/EnrichedHeatmap) package
-from Zuguang Gu, as well as
-[Gviz](https://bioconductor.org/packages/release/bioc/html/Gviz.html)
-package.
+from Zuguang Gu.
