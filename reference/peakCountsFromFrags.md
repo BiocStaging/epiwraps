@@ -101,7 +101,7 @@ write.table(d, frags, col.names=FALSE, row.names=FALSE, sep="\t", quote=FALSE)
 # tabix-index it
 frags <- Rsamtools::bgzip(frags)
 Rsamtools::indexTabix(frags, format = "bed")
-#> [1] "/tmp/RtmpIJezc4/file1c372769466c.tsv.bgz.tbi"
+#> [1] "/tmp/Rtmp1cVllQ/file321e1e02da8b.tsv.bgz.tbi"
 # we create regions of interest:
 regions <- GRanges(c("a","b"), IRanges(400,width=300))
 # we get the counts:
