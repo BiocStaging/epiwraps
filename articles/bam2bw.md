@@ -43,8 +43,8 @@ rtracklayer::export(gr, bam, format="bam")
 Rsamtools::indexBam(bam)
 ```
 
-    ##       /tmp/Rtmpnd0vkw/file34e03808888c.bam 
-    ## "/tmp/Rtmpnd0vkw/file34e03808888c.bam.bai"
+    ##       /tmp/RtmpfS8u8A/file1e5862d4081c.bam 
+    ## "/tmp/RtmpfS8u8A/file1e5862d4081c.bam.bai"
 
 Using these example reads, we can illustrate different ways of computing
 coverages.
@@ -266,7 +266,7 @@ sessionInfo()
     ## [8] methods   base     
     ## 
     ## other attached packages:
-    ##  [1] patchwork_1.3.2             epiwraps_0.99.125          
+    ##  [1] patchwork_1.3.2             epiwraps_0.99.126          
     ##  [3] EnrichedHeatmap_1.42.0      ComplexHeatmap_2.28.0      
     ##  [5] SummarizedExperiment_1.42.0 Biobase_2.72.0             
     ##  [7] GenomicRanges_1.64.0        Seqinfo_1.2.0              
